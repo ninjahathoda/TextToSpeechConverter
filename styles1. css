@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg , #010758, #490d61);
+}
+.header{
+    padding-top:50px ;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+}
+.header span{
+    color: #ff2963;
+}
+.main{
+    margin: 100px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    height: 350px;
+    width: 750px;
+    border-radius: 35px;
+    text-indent: 30px;
+    font-size: 16px;
+    background-color: #403d84;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer select{
+    width: 70vmin;
+    height: 5vmin;
+    border-radius: 25px;
+    appearance: none;
+    background-color: #403d84;
+    background-image: url('/Images/dropdown.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: calc(100% - 20px);
+    background-position-y: 15px
+}
+button{
+    border: none;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #ff2963;
+    color: white;
+    border-radius: 30px;
+    font-size: 16px;
+}
+button img{
+    height: 16px;
+    width: 16px;
+    object-fit: contain;
+}
